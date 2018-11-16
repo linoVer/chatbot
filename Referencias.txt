@@ -1,2 +1,9 @@
 O código pertence à:
 https://gist.github.com/sergiogama/d8e99143e06720396aa2730d8015e4c0
+
+Tutoriais:
+https://www.youtube.com/watch?v=LOX3C6_upu4
+
+https://medium.com/botsbrasil/desenvolvendo-chatbots-com-watson-conversation-64a3b2cdbb30
+
+
