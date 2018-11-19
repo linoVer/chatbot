@@ -1,0 +1,1332 @@
+{
+  "name": "Chatbot-Acadêmico",
+  "intents": [
+    {
+      "intent": "atestado_de_matricula",
+      "examples": [
+        {
+          "text": "comprovante"
+        },
+        {
+          "text": "Quero pegar um atestado de matrícula"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pagamento",
+      "examples": [
+        {
+          "text": "pagamento de taxa"
+        },
+        {
+          "text": "como fazer um pagamento de taxa"
+        },
+        {
+          "text": "multa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "trancamento",
+      "examples": [
+        {
+          "text": "trancamento de disciplina"
+        },
+        {
+          "text": "trancar disciplina"
+        },
+        {
+          "text": "como fazer o trancamento"
+        },
+        {
+          "text": "até quando fazer o trancamento"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cursos-unit",
+      "examples": [
+        {
+          "text": "Cursos ofertados pela unit?"
+        },
+        {
+          "text": "Quero saber os curso da unit"
+        },
+        {
+          "text": "Quero fazer uma engenharia"
+        },
+        {
+          "text": "que cursos a unit tem?"
+        },
+        {
+          "text": "Quais os cursos que a unit oferta?"
+        }
+      ],
+      "description": "Cursos que a unit oferta"
+    },
+    {
+      "intent": "segunda_chamada",
+      "examples": [
+        {
+          "text": "como posso fazer segunda chamada"
+        },
+        {
+          "text": "solicitar segunda chamada"
+        },
+        {
+          "text": "segunda chamada"
+        },
+        {
+          "text": "Onde solicitar segunda chamada"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "horario",
+      "examples": [
+        {
+          "text": "onde vejo meu horario"
+        },
+        {
+          "text": "onde está meu horario"
+        },
+        {
+          "text": "como vejo meu horario"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "falou"
+        },
+        {
+          "text": "não, obrigada"
+        },
+        {
+          "text": "xau"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "até a próxima"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "até logo"
+        },
+        {
+          "text": "não, obrigado"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "faltas2",
+      "examples": [
+        {
+          "text": "quantidade de faltas"
+        },
+        {
+          "text": "maximo de faltas"
+        },
+        {
+          "text": "reprovar por falta"
+        },
+        {
+          "text": "max de faltas"
+        },
+        {
+          "text": "numero maximo de faltas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "E aí"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "E ai"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "E aí?"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Oi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "faltas3",
+      "examples": [
+        {
+          "text": "justificar faltas"
+        },
+        {
+          "text": "justificativa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "acessar-grade",
+      "examples": [
+        {
+          "text": "Como acesso minha grade curricular?"
+        },
+        {
+          "text": "quero acessar minha grade"
+        },
+        {
+          "text": "onde vejo minha grade"
+        },
+        {
+          "text": "gostaria de visualizar minha grade"
+        }
+      ],
+      "description": "Acesso da grade do Aluno"
+    },
+    {
+      "intent": "fies",
+      "examples": [
+        {
+          "text": "fui aprovado no fies, e agora"
+        },
+        {
+          "text": "como fazer a matricula pelo fies"
+        },
+        {
+          "text": "como contratar o fies"
+        },
+        {
+          "text": "quais os documentos para o fies"
+        },
+        {
+          "text": "passei no fies, e agora"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "historico",
+      "examples": [
+        {
+          "text": "imprimir historico"
+        },
+        {
+          "text": "historico"
+        },
+        {
+          "text": "como emitir historico escolar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "revisao_de_nota",
+      "examples": [
+        {
+          "text": "revisão de nota"
+        },
+        {
+          "text": "nota da prova"
+        },
+        {
+          "text": "nota errada"
+        },
+        {
+          "text": "nota não está certa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "diploma",
+      "examples": [
+        {
+          "text": "como pegar o diploma"
+        },
+        {
+          "text": "emitir diploma"
+        },
+        {
+          "text": "como pedir o diploma"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "continuar",
+      "examples": [
+        {
+          "text": "sim"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "atividades_complementares",
+      "examples": [
+        {
+          "text": "atividades complementares"
+        },
+        {
+          "text": "carga horaria complementar"
+        },
+        {
+          "text": "quantas horas complementares"
+        },
+        {
+          "text": "total de atividades complementares"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "busca-estagio",
+      "examples": [
+        {
+          "text": "A instituição oferta estágios?"
+        },
+        {
+          "text": "me arruma uma vaga de emprego"
+        },
+        {
+          "text": "quero conseguir um emprego"
+        },
+        {
+          "text": "onde acho um emprego"
+        },
+        {
+          "text": "a unit tem estágios?"
+        },
+        {
+          "text": "tô procurando um estágio"
+        },
+        {
+          "text": "como consigo meu primeiro estágio?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "faltas",
+      "examples": [
+        {
+          "text": "levei falta por engano"
+        },
+        {
+          "text": "Quero contestar a frequência"
+        },
+        {
+          "text": "Como contestar a frequencia"
+        },
+        {
+          "text": "Quero contestar faltas"
+        },
+        {
+          "text": "falta errada"
+        },
+        {
+          "text": "Como contestar faltas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "qualquer",
+      "examples": [
+        {
+          "text": "qualquer"
+        },
+        {
+          "text": "teste"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "renovar_matricula",
+      "examples": [
+        {
+          "text": "como renovar a matricula"
+        },
+        {
+          "text": "Quando renovar a matricula"
+        },
+        {
+          "text": "renovar a matricula"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "participar_fies",
+      "examples": [
+        {
+          "text": "quem pode se increver no fies"
+        },
+        {
+          "text": "quem pode participar do fies"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "creditos_sobrando",
+      "examples": [
+        {
+          "text": "créditos sobrando"
+        },
+        {
+          "text": "não usei todos os créditos"
+        },
+        {
+          "text": "O que acontece com os créditos que sobraram"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "extensão",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "extensão",
+          "synonyms": [
+            "extensão"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "idioma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "idioma",
+          "synonyms": [
+            "idiomas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "língua",
+          "synonyms": [
+            "línguas",
+            "língua estrangeira",
+            "francês",
+            "inglês",
+            "espanhol"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cursos-humanas-sociais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "humanas",
+          "synonyms": [
+            "humanas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sociais",
+          "synonyms": [
+            "sociais",
+            "social",
+            "sociedade"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "desperdir",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tchau",
+          "synonyms": [
+            "xau",
+            "até logo",
+            "adeus",
+            "flw",
+            "falou",
+            "fui",
+            "até mais"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pagar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "custos",
+          "synonyms": [
+            "valor",
+            "custo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pagar",
+          "synonyms": [
+            "pagar",
+            "pagamento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "taxa",
+          "synonyms": [
+            "taxas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mensalidade",
+          "synonyms": [
+            "mensalidade"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cursos_tecnologia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tecnologia",
+          "synonyms": [
+            "tecnologia",
+            "ti",
+            "tecnologia da informação"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nota",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nota",
+          "synonyms": [
+            "pontuação",
+            "pontos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "faltas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "faltas",
+          "synonyms": [
+            "frequencia",
+            "frequência"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "faltas2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "faltas2",
+          "synonyms": [
+            "reprovar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "atividades",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "complementar",
+          "synonyms": [
+            "total de horas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "historico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "historico",
+          "synonyms": [
+            "disciplinas_cursadas",
+            "todas_notas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cursos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cursos",
+          "synonyms": [
+            "cursos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "matricula",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Atestado de Matrícula",
+          "synonyms": [
+            "comprovante"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "continuar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "verdadeira",
+          "synonyms": [
+            "sim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "localidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "onde",
+          "synonyms": [
+            "onde",
+            "local"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "faltas3",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "justificar",
+          "synonyms": [
+            "atestado",
+            "atudiencia",
+            "serviço militar",
+            "departamento medico"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "prova",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "segunda chamada",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cursos-biologicas-saude",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "saúde",
+          "synonyms": [
+            "saúde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "biologia",
+          "synonyms": [
+            "biologia",
+            "biológicas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cursos_engenharia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "engenharia",
+          "synonyms": [
+            "engenharia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "trancar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "trancar",
+          "synonyms": [
+            "trancar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "saudacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "saudar",
+          "synonyms": [
+            "boa noite",
+            "bom dia",
+            "boa tarde"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cursos-exatas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "exatas",
+          "synonyms": [
+            "exatas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "O valor da taxa pode variar a cada semestre. Para verificar o valor você pode ir diretamente no DAA, na Tesouraria ou até mesmo verificar na hora de gerar o boleto. Para gerar um boleto você deve ir em \"Meus processos\" e clicar em \"pagar \", de acordo com o processo que deseja. Obs: Antes de gerar o boleto para pagamento é necessário que o processo tenha sido aceito pela coordenação. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1542393855018",
+      "metadata": {},
+      "conditions": "@pagar",
+      "dialog_node": "node_1_1542548818278"
+    },
+    {
+      "type": "standard",
+      "title": "Nota",
+      "output": {
+        "text": {
+          "values": [
+            "Você faz o login no site do magister: https://wwws.unit.br/Portal/Index.jsp. Então vai na aba Protocolo que fica na barra inferior da página, seleciona o item Revisão de Nota (podendo ser disciplina on-line ou não) e segue as instruções da próxima página. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#revisao_de_nota",
+      "dialog_node": "node_5_1542393131696",
+      "previous_sibling": "node_5_1542395254929"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Em disciplinas de 2 créditos você pode ter no máximo 10 faltas, de 4 créditos 20 faltas e nas de 6 créditos 30 faltas. Caso não seja essa sua dúvida, tente ser um pouco mais específico na pergunta. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#faltas2",
+      "dialog_node": "node_4_1542381191159",
+      "previous_sibling": "node_4_1542327764364"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Fique atento ao prazo de renovação que será informado no site da Unit ou em algum panfleto informativo na dependências da instituição. No prazo definido você acessa o Magister e em Graduação no menu Matrícula você seleciona \"Solicitação de Disciplinas\", então é só escolher até preencher a quantidade máxima de créditos e pagar a taxa até o dia definido. Caso não preencha a quantidade máxima de créditos, você recebe um desconto proporcional na mensalidade."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#renovar_matricula",
+      "dialog_node": "node_9_1542396372543",
+      "previous_sibling": "node_8_1542396142794"
+    },
+    {
+      "type": "standard",
+      "title": "Pagamento de mensalidade",
+      "output": {
+        "text": {
+          "values": [
+            "\nPara pagar a sua mensalidade você pode ir na Tesouraria com o valor e fazer o pagamento lá mesmo. Você também pode gerar um boleto de pagamento. Para gerar o boleto siga as seguintes etapas:\n1.\tAcesse o link: https://wwws.unit.br/Portal/Index.jsp\n2.\tLogue com o seu usuário e senha.\n3.\tNa parte inferior do site selecione “Graduação”.\n4.\tNa parte superior em pagamento selecione “Pagamento de parcelas”.\n5.\tSelecione a parcela que deseja fazer o pagamento. \n6.\tPronto! O boleto será gerado :D.\nMais alguma dúvida?\n\n\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#pagamento && @pagar:mensalidade",
+      "dialog_node": "node_12_1542569123656",
+      "previous_sibling": "node_3_1542394448140"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Atualmente ofertamos os cursos de Inglês, Francês e Espanhol. Confira o site para mais informações em: https://portal.unit.br/idiomas/. Temos descontos especiais, confira!!! ;D. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#cursos-unit && @idioma",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1542558995270",
+      "previous_sibling": "node_5_1542557119201"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "text": {
+          "values": [
+            "Eu não entendi. Você pode tentar reformular a frase.",
+            "Você pode reformular sua afirmação? Eu não estou entendendo.",
+            "Eu não entendi o sentido."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_6_1542330217120"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Nós da UNIT temos diversos cursos da área das engenharias na categoria presencial. \nCursos atualmente Ofertados:\n•\tEngenharia Ambiental\n•\tEngenharia Civil\n•\tEngenharia de Petróleo\n•\tEngenharia de Produção\n•\tEngenharia Elétrica\n•\tEngenharia Mecânica\n•\tEngenharia Mecatrônica\n•\tEngenharia Química\n\nPara mais informações consulte: https://portal.unit.br/cursos/. Tem mais alguma dúvida?\n\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#cursos-unit && @cursos_engenharia",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1542557119201",
+      "previous_sibling": "node_4_1542556662165"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta geral atividades complementares",
+      "output": {
+        "text": {
+          "values": [
+            "Para o curso de Ciência da Computação você precisa cumprir 200h de atividades complementares. As atividades podem ser: minicursos, palestras, congressos, monitoria, participação em eventos...Sendo que precisa ser relacionado com a área. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#atividades_complementares",
+      "dialog_node": "node_6_1542395482344",
+      "previous_sibling": "node_4_1542394764694"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Nós da UNIT temos diversos cursos da área de Tecnologia da Informação, entre eles presenciais e a distância. \nPresenciais:\n•\tCiência da Computação\n•\tSistemas de Informação\n•\tRedes de Computadores\n•\tJogos Digitais\n•\tSistemas para Internet\n\nA distância:\n•\tAnálise e Desenvolvimento de Sistemas\n\nPara mais informações consulte: https://portal.unit.br/cursos/. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#cursos-unit && @cursos_tecnologia",
+      "dialog_node": "node_2_1542553493034",
+      "previous_sibling": "node_2_1542494881674"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Para visualizar os cursos de extensão disponíveis nesse semestre siga as seguintes etapas:\n1.\tAcesse o link: https://wwws.unit.br/Portal/Index.jsp\n2.\tLogue com o seu usuário e senha.\n3.\tClique em “Extensão” no canto esquerdo da página\n4.\tPronto! Todos os cursos ofertados estarão sendo listados. Tem mais alguma dúvida?\n\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#cursos-unit && @extensão",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1542566991961",
+      "previous_sibling": "node_9_1542564138853"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para contestar as faltas é muito simples! Você faz o login no site do magister: https://wwws.unit.br/Portal/Index.jsp. Então vai na aba Protocolo que fica na barra inferior da página, seleciona o item Contestação de Frequência e segue as instruções da próxima página. Caso não seja essa sua dúvida, tente ser um pouco mais específico na pergunta. Tem mais alguma dúvida?"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#faltas",
+      "dialog_node": "node_4_1542327764364",
+      "previous_sibling": "node_3_1542327485962"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Opa! Pode falar!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#continuar",
+      "dialog_node": "node_1_1542393666835",
+      "previous_sibling": "node_5_1542329950913"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Muito simples! Você faz o login no site do magister: https://wwws.unit.br/Portal/Index.jsp. Então vai na aba Protocolo que fica na barra inferior da página, seleciona o item Atestado de Matrícula e segue as instruções da próxima página. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#atestado_de_matricula",
+      "dialog_node": "node_3_1542327485962",
+      "previous_sibling": "node_1_1542393666835"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Nós da UNIT ofertamos uma variedade imensas de cursos da área de Biológicas e Saúde na modalidade presencial. Nossos Cursos:\n•\tBiomedicina\n•\tCiência Biológicas e Bacharelado\n•\tEducação Física Bacharelado\n•\tEnfermagem\n•\tFarmácia\n•\tFisioterapia\n•\tMedicina\n•\tNutrição\n•\tOdontologia\n•\tPsicologia\n\nPara mais informações consulte o site: https://portal.unit.br/cursos/. Tem mais alguma dúvida?\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#cursos-unit && @cursos-biologicas-saude",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1542563576053",
+      "previous_sibling": "node_6_1542558995270"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Você pode consultar seu horário direto pelo site do Magister, em Graduação no menu consulta ou pode ver pelo App para celular do Magister. Indico usar a segunda opção, facilita bastante o caminho :), Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#horario",
+      "dialog_node": "node_11_1542397081399",
+      "previous_sibling": "node_10_1542396899104"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Nós da UNIT temos diversos cursos da área de exatas, entre eles presenciais e a distância. \nPresenciais:\n•\tCiência da Computação\n•\tEngenharia Ambiental\n•\tEngenharia Civil\n•\tEngenharia de Petróleo\n•\tEngenharia de Produção\n•\tEngenharia Elétrica\n•\tEngenharia Mecânica\n•\tEngenharia Mecatrônica\n•\tEngenharia Química\n•\tJogos Digitais\n•\tMatemática\n•\tPetróleo e Gás\n•\tRedes de Computadores\n•\tSistemas de Informação\n•\tSistemas para Internet\n\nA distância:\n•\tSegurança no Trabalho\n•\tAnálise e Desenvolvimento de Sistemas\n\nPara mais informações consulte: https://portal.unit.br/cursos/. Tem mais alguma dúvida?\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#cursos-unit && @cursos-exatas",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1542556662165",
+      "previous_sibling": "node_2_1542553493034"
+    },
+    {
+      "type": "standard",
+      "title": "Pagamento de Taxa",
+      "output": {
+        "text": {
+          "values": [
+            "Para pagar alguma taxa é mais fácil você ir até a biblioteca ou até a tesouraria, assim a confirmação será instantânea. Caso seja multa da biblioteca, pode ir pagar diretamente lá. Lembrando que caso você tenha alguma pendência financeira, não será possível abrir novos processos pelo Magister. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#pagamento && @pagar:taxa",
+      "dialog_node": "node_3_1542394448140",
+      "previous_sibling": "node_2_1542393855018"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta geral para histórico",
+      "output": {
+        "text": {
+          "values": [
+            "Você pode imprimir o histórico pelo Magister, mas caso precise do carimbo da instituição, precisa abrir um protocolo no Magister e pagar a taxa, depois vai até o DAAF para pegar o histórico. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#historico",
+      "dialog_node": "node_4_1542394764694",
+      "previous_sibling": "node_12_1542569123656"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "A UNIT possui todo um sistema para que a relação entre empresas, estagiários e formados seja extremamente facilitada. Temos uma plataforma própria para isso, acesse: https://portal.unit.br/carreiras/. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#busca-estagio",
+      "dialog_node": "node_13_1542570884941",
+      "previous_sibling": "node_11_1542568294250"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Você pode pedir desconto na mensalidade, mas só receberá no fim do período. Ou então solicitar esses crédito em outro período. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#creditos_sobrando",
+      "dialog_node": "node_10_1542396899104",
+      "previous_sibling": "node_9_1542396372543"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Para concluir os procedimentos de contratação, você deve comparecer à Central de Atendimento Fies da Unit com os documentos originais e cópias, conforme a lista abaixo:\n1 - Comprovante de inscrição extraído do site SisFies;\n2 - RG (ou certidão de nascimento, no caso de menores de idade);\n3 - CPF;\n4 - Histórico escolar do ensino médio;\n5 - Comprovante de residência (atual) em nome do aluno ou de um dos membros do grupo familiar;\n6 - Comprovante de renda:\n6.1 - Se assalariado: 6 últimos contracheques;\n6.2 - Se autônomo: Decore ou GPS dos 3 últimos meses;\n6.3 - Se aposentado: extrato do INSS (www.mpas.gov.br);\n6.4 - Imposto de Renda, para quem declara;\n7 - Carteira de trabalho, para todos maiores de 18 anos (cópia das páginas: foto, qualificação civil, contrato de trabalho do último vínculo e a próxima página em branco). Obs.: para os membros que estão há mais de dois (02) anos sem vínculo empregatício ativo, deve-se trazer uma declaração emitida pelo Ministério do Trabalho constando que não há vínculo empregatício ativo.\n8 - Certidão de óbito (caso algum dos membros do grupo familiar tenha falecido);\n9 - Declaração de casamento ou divórcio (do aluno e dos membros do grupo familiar), se for o caso;\n10 - Declaração de união estável (com firma reconhecida em cartório) do aluno ou do grupo familiar, caso não possua o item acima, se for o caso;\n11 - Declaração de não convivência (com firma reconhecida em cartório), quando os pais estão em fase de separação, se for o caso.\nLembre-se: você precisa trazer seus documentos e dos membros da sua família que foram cadastrados no sistema (originais e cópias).\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#fies",
+      "dialog_node": "node_1_1542494581755",
+      "previous_sibling": "node_11_1542397081399"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Nós da UNIT ofertamos uma variedade imensa de cursos da área de Humanas e Sociais nas modalidades presencial e a distância. Nosso Cursos:\nPresenciais:\n•\tAdministração\n•\tArquitetura e Urbanismo\n•\tCiência Contábeis\n•\tDesign Gráfico\n•\tDireito\n•\tJornalismo\n•\tPublicidade e Propaganda\n•\tServiço Social\nA distância:\n•\tCiências Contábeis\n•\tServiço Social\n•\tAdministração\n•\tPedagogia\n•\tHistória\n•\tGestão Comercial\n•\tLogística\n•\tGestão de recursos humanos\n\nPara mais informações consulte o site: https://portal.unit.br/cursos/. Tem mais alguma dúvida?\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#cursos-unit && @cursos-humanas-sociais",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1542564138853",
+      "previous_sibling": "node_8_1542563576053"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "text": {
+          "values": [
+            "Muito obridado por nos consultar, volte sempre que precisar. Até logo!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#despedida",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1542330217120",
+      "previous_sibling": "node_13_1542570884941"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Opa, e aí?!! Qual a sua dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#saudacao",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1542329950913",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Podem participar do FIES estudantes de todo o Brasil com renda per capita mensal familiar de até cinco salários mínimos, com nota mínima de quatrocentos e cinquenta pontos no ENEM e que tenha participado do Exame Nacional do Ensino Médio - Enem a partir da edição de 2010 e obtido média aritmética das notas nas provas igual ou superior a 450 (quatrocentos e cinquenta) pontos e nota na redação superior a 0 (zero)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#participar_fies",
+      "dialog_node": "node_2_1542494881674",
+      "previous_sibling": "node_1_1542494581755"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Você precisa abrir um processo no Magister, na aba de protocolo e seguir as instruções após clicar no pedido de diploma. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#diploma",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1542396142794",
+      "previous_sibling": "node_7_1542395760248"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta geral segunda chamada",
+      "output": {
+        "text": {
+          "values": [
+            "Irei te ajudar! Você só precisa fazer login no site do magister: https://wwws.unit.br/Portal/Index.jsp. . Então vai na aba Protocolo que fica na barra inferior da página, seleciona o item 2ª Chamada de Avaliação (podendo ser disciplina on-line ou não) e segue as instruções da próxima página. É preciso pagar uma taxa para poder fazer a prova. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#segunda_chamada",
+      "dialog_node": "node_2_1542393855018",
+      "previous_sibling": "node_5_1542393131696"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Para trancar um disciplina você precisa fazer a solicitação no Magister na aba de Protocolos. O trancamento não poderá ser realizado caso você faça a segunda avaliação. Antes disso, pode ser realizado em qualquer momento. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#trancamento && @trancar",
+      "dialog_node": "node_7_1542395760248",
+      "previous_sibling": "node_6_1542395482344"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Para acessar a sua grade siga as seguintes etapas:\n1.\tAcesse o link: https://wwws.unit.br/Portal/Index.jsp\n2.\tLogue com o seu usuário e senha.\n3.\tNa parte inferior do site selecione “Graduação”.\n4.\tJá agora, no cantor superior na zona de consulta selecione a opção “horário do aluno”.\nPronto! Simples, não é mesmo?\n\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#acessar-grade",
+      "dialog_node": "node_11_1542568294250",
+      "previous_sibling": "node_3_1542553542798"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Para justificar a falta é preciso abrir um protocolo no Magister, de acordo com a justificativa em questão. Caso não seja essa sua dúvida, tente ser um pouco mais específico na pergunta. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#faltas3",
+      "dialog_node": "node_5_1542395254929",
+      "previous_sibling": "node_4_1542381191159"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Nós da UNIT ofertamos uma variedade imensas de cursos presencias e a distância. Para uma listagem dos cursos consulte o site: https://portal.unit.br/cursos/. Tem mais alguma dúvida?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#cursos-unit",
+      "dialog_node": "node_3_1542553542798",
+      "previous_sibling": "node_10_1542566991961"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "text": {
+          "values": [
+            "Olá! Bem-Vindo ao nosso FAQ! Como posso te ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "workspace_id": "1f29492e-38b3-4a6b-9ee4-0e6fa43c08d7",
+  "counterexamples": [
+    {
+      "text": "como solicitar outra carteirinha?"
+    },
+    {
+      "text": "perdi minha carteirinha"
+    },
+    {
+      "text": "Quais os cursos a unit oferta?"
+    }
+  ],
+  "learning_opt_out": false,
+  "status": "Available"
+}
